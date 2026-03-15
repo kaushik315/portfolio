@@ -202,6 +202,32 @@ const about = {
       },
     ],
   },
+  interests: {
+  display: true,
+  title: "Interests and Hobbies",
+  skills: [
+    {
+      title: "E-Bikes & Drivetrain Technology",
+      description: <>Passionate about electric bike systems and drivetrain design. I regularly troubleshoot and maintain my Scott E-Genius eMTB with a Bosch mid-drive motor, diagnosing issues such as error codes, motor protection, and water ingress.</>,
+    },
+    {
+      title: "Mountain Biking",
+      description: <>Regularly ride trail and electric mountain bikes and enjoy understanding how suspension, drivetrain weight distribution, and motor assistance affect handling and performance.</>,
+    },
+    {
+      title: "FPV Drones & Electronics",
+      description: <>Hands-on experience assembling and troubleshooting FPV drones, understanding ESCs, motors, flight controllers, and PCB components while diagnosing electrical faults.</>,
+    },
+    {
+      title: "Hardware Tinkering & Problem Solving",
+      description: <>Enjoy building, breaking, and fixing things—from bikes to electronics. I like understanding how systems work and finding practical solutions when things fail.</>,
+    },
+    {
+      title: "Embedded Systems Curiosity",
+      description: <>Interested in learning more about embedded programming and motor control systems used in e-mobility platforms and robotics.</>,
+    },
+  ],
+}
 };
 
 
