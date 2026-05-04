@@ -51,8 +51,8 @@ const home = {
   headline: <>See my works and projects</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">NyxxIntel</strong></>,
-    href: "/work/nyxx-intel",
+    title: <>Recent project: <strong className="ml-4">FPV</strong></>,
+    href: "/work/fpv-project",
   },
   subline: (
     <>
