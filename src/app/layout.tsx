@@ -26,6 +26,7 @@ interface RootLayoutProps {
 
 export default async function RootLayout({ children }: RootLayoutProps) {
   return (
+    
     <Flex
       suppressHydrationWarning
       as="html"

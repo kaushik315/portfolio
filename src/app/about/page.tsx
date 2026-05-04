@@ -49,6 +49,11 @@ export default function About() {
       display: about.technical.display,
       items: about.technical.skills.map((skill) => skill.title),
     },
+    {
+      title: about.interests.title,
+      display: about.technical.display,
+      items: about.technical.skills.map((skill) => skill.title),
+    },
   ];
   return (
     <Column maxWidth="m">
@@ -314,8 +319,32 @@ export default function About() {
               </Column>
             </>
           )}
+        {about.interests.display && (
+            <>
+              <Heading
+                as="h2"
+                id={about.interests.title}
+                variant="display-strong-s"
+                marginBottom="40"
+              >
+                {about.interests.title}
+              </Heading>
+              <Column fillWidth gap="l">
+                {about.interests.skills.map((skill, index) => (
+                  <Column key={`${skill}-${index}`} fillWidth gap="4">
+                    <Text variant="heading-strong-l">{skill.title}</Text>
+                    <Text variant="body-default-m" onBackground="neutral-weak">
+                      {skill.description}
+                    </Text>
+                  
+                  </Column>
+                ))}
+              </Column>
+            </>
+          )}
         </Column>
       </Flex>
     </Column>
   );
 }
+
